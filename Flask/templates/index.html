@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<u><h1 align = "Center"> ML Search Engine </h1></u>
+
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h2 align = "Center">Please Enter A query</h1>
+        <form align = "Center" method="POST" action="/"> 
+            <input type="text" name = "content" id = "content"size="30" height="100">
+            <input type="submit" value= "Search" id="content"> 
+            </form>
+</div>
+
+<div class="context" align = "Center">
+    <br>
+    <table>
+        <tr>
+            <th>Results :</th>
+        </tr>
+        <tr>
+            <th> The Optimised Query is : {{tasks[1]}}</th>
+        </tr>
+        {% for task in tasks[0] %}
+        
+        <tr>
+            <td>{{task}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
+
+
+
+

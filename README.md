@@ -2,6 +2,9 @@
 Searching is a difficult task as it takes so much time to perform it.
 If we have a large dataset then if we do one to one searching then it will take so much of user time.
 
+## Working : 
+![Alt text](https://github.com/lakshaychhabra/MLSearchEngine/blob/master/1.gif "Optional Title")
+
 ## Dataset :
 We have Stack Overflow Dataset from Kaggle link : https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction/data
 
